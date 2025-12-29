@@ -1,0 +1,11 @@
+:root { --orange: #ff7d2a; --dark: #0d1117; --card: #1c2128; }
+body { background: var(--dark); color: white; margin: 0; font-family: sans-serif; }
+.char-img { width: 50px; border-radius: 50%; border: 2px solid var(--orange); }
+.buy-btn { background: var(--orange); border: none; padding: 15px; border-radius: 12px; color: white; width: 100%; font-weight: bold; cursor: pointer; }
+.input-f { width: 100%; padding: 12px; margin: 10px 0; border-radius: 8px; border: 1px solid #333; background: #000; color: white; }
+.nav-bar { position: fixed; bottom: 0; width: 100%; background: #161b22; display: flex; padding: 15px 0; border-top: 1px solid #333; }
+.nav-link { flex: 1; text-align: center; color: #7b848f; text-decoration: none; }
+.nav-link.active { color: var(--orange); }
+.feed-container { padding: 70px 20px; height: 100vh; overflow-y: scroll; scroll-snap-type: y mandatory; }
+.product-post { height: 80vh; scroll-snap-align: center; display: flex; align-items: center; }
+.product-card { background: var(--card); width: 100%; padding: 20px; border-radius: 20px; border: 1px solid #333; }
